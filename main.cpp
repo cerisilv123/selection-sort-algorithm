@@ -13,7 +13,7 @@ void selectionSort(int[]);
 
 int main() {
 
-    int numbers[10] = {5, 6, 7, 3, 2, 100, 10, 20, 1, -156};
+	int numbers[10] = {5, 6, 7, 3, 2, 100, 10, 20, 1, -156};
 	selectionSort(numbers);
 	
 	return 0;
@@ -21,6 +21,7 @@ int main() {
 
 // Function to perform selection sort
 void selectionSort(int numbers[10]) {
+	
 	for (size_t i = 0; i < 9; i++) {
 		int minIdx = i; 
 		for (size_t j = i + 1; j < 10; j++) {
