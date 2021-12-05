@@ -37,4 +37,3 @@ void selectionSort(int numbers[10]) {
 		std::cout << numbers[i] << std::endl;
 	}
 }
-
